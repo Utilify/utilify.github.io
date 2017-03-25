@@ -11,24 +11,26 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="http://utilify.io" />
   <meta property="og:title" content="Utilify | Utility Verified Identity &amp; Financial Data Solutions" />
-  <meta property="og:description" content="Software service enabling identity and know your customer solutions. Integrates seemlessly and securely into your business processes. Available as a hosted service or integrated via our REST API." />
+  <meta property="og:description" content="Software service enabling identity and know your customer solutions. Integrates seemlessly and securely into your business processes. Available as a hosted service or integrated via our REST API."
+  />
   <meta property="og:image" content="assets/img/logo-utilify.svg" />
 
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="icon" href="assets/img/favicon.ico">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-96163703-1', 'auto');
+    ga('send', 'pageview');
 
-  ga('create', 'UA-96163703-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+  </script>
 </head>
 
 <body>
@@ -43,8 +45,8 @@
     </div>
     <div class="callout fade-in">
       <div class="text-center">
-        <h1>friction free customer onboarding</h1>
-        <p class="lead">Get untampered utility bills direct from the utility company</p>
+        <h1>working with utility data doesn't have to be hard</h1>
+        <p class="lead">utilify enables your applications to connect with user's utility accounts</p>
       </div>
     </div>
   </div>
@@ -54,6 +56,8 @@
  <main role="main">
   <section class="light-gray section-features" data-magellan-target="features">
     <div class="row">
+      <h2 class="text-center">create solutions to your problem the way right way</h2>
+      <p class="lead text-center">Our technology makes it easy to access high-quality utility data, validate account ownership, and mitigate risks in a user-friendly way</p>
       <div class="row small-up-1 medium-up-2 large-up-4 text-center">
         <div class="column">
           <i class="material-icons">mood</i>
@@ -115,7 +119,7 @@
         <!-- <img width="100" src="assets/img/logo-utilify.svg" alt="utilify logo" /> -->
         <div class="text-justify">
           <p>
-            Utilify integrates discretely into your process using our REST API which enables us to securely exchange information:-
+            Utilify integrates discretely into your process using our customisable widget or API which enables us to securely exchange information:-
           </p>
           <ol>
             <li>
@@ -125,7 +129,7 @@
               Once authenticated utilify fetches all the details and documents quickly in the background
             </li>
             <li>
-              Once we have the information we let you know its ready for you to access
+              Once we have the information we let you know its ready for you to process
             </li>
           </ol>
         </div>
@@ -152,7 +156,7 @@
               <div class="columns small-12 medium-6">
                   <h4 class="primary">Starter for Ten<br>&pound;0.00<span>/data request</span></h4>
                   <ul class="no-bullet">
-                      <li><b>First 10 every month</b></li>
+                      <li><b>First 10</b></li>
                   </ul>
               </div>
               <div class="columns small-12 medium-6 paid">
@@ -173,6 +177,43 @@
           </div>
       </div>
   </section>
+  <hr>
+  <section data-magellan-target="register">
+    <div class="row">
+      <div class="small-12 medium-6 columns text-center">
+        <span class="primary hollow badge"><i class="material-icons">&#xE7FE;</i></span>
+        <h2 class="subheader">
+          What will you create?
+        </h2>
+        <p class="lead">
+          Sign up, try it and see how utilify can enable your solution
+        </p>
+      </div>
+      <div class="small-12 medium-6 columns">
+        <form id="form-contact" accept-charset='UTF-8'>
+          <label>Name
+            <input id="form-contact-name" type='text' required maxlength='40' name='name' />
+          </label>
+          <label>Email
+            <input id="form-contact-email" type='email' required maxlength='100' name='email' />
+          </label>
+          <div class="columns row small-12 text-right">
+            <button class="button primary large" type='submit'>sign up</button>
+          </div>
+        </form>
+        
+        <div id="form-contact-success" style="display:none">
+          <h3>
+            Thank you!
+          </h3>
+          <p class="lead">
+            We are working really hard to get this product to market.  You will be the first to know when it does!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <hr>
   <section class="section-team">
     <div class="row">
@@ -209,47 +250,6 @@
           <img src="http://i.pravatar.cc/150?img=53">
           <figcaption>Sakis <br /> <span>Developer</span></figcaption>
         </figure>
-      </div>
-    </div>
-  </section>
-  
-  <section data-magellan-target="register">
-    <div class="row">
-      <div class="small-12 medium-6 columns text-center">
-        <span class="primary hollow badge"><i class="material-icons">&#xE7FE;</i></span>
-        <h2 class="subheader">
-          Sign up, no strings attached
-        </h2>
-        <p class="lead">
-          Sign up, try it and see how utilify can streamline your customer onboarding.
-        </p>
-      </div>
-      <div class="small-12 medium-6 columns">
-        <form data-abide novalidate action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1820996000000095039 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-          <!-- Do not remove this code. -->
-          <input type='text' style='display:none;' name='xnQsjsdp' value='062d671d9c7711aa5fbba594c0b7c04c3eb2b12b9ac7777050f2773ec54ed2d2' />
-          <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-          <input type='text' style='display:none;' name='xmIwtLD' value='bc67ab0072d0b720f35ae585fa38619e0e332b7796cc3fd04126c58cd2ba18c0' />
-          <input type='text' style='display:none;' name='actionType' value='TGVhZHM=' />
-          <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;utilify.io&#x2f;signedup.html' />
-          <!-- Do not remove this code. -->
-          <label>First name
-            <input type='text' required maxlength='40' name='First Name' />
-          </label>
-          <label>Last name
-            <input type='text' required maxlength='80' name='Last Name' />
-          </label>
-          <label>Email
-            <input type='email' required maxlength='100' name='Email' />
-          </label>
-          <label>Company
-            <input type='text' required maxlength='100' name='Company' />
-          </label>
-          <div class="columns row small-12 text-right">
-            <input class="button primary large" type='submit' value='Submit' />
-          </div>
-        </form>
-        
       </div>
     </div>
   </section>
@@ -388,6 +388,7 @@
 </footer>
 
 
+  <script src="https://drrjhlchpvi7e.cloudfront.net/libs/stamplay-js-sdk/2.0.5/stamplay.min.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 
